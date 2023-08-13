@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shorcut icon" href="img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="мебельный магазин SitDownPls карточка товара">
+  <title>SitDownPls</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <!--Скроллбар main-form и d-31/ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ. Нужен для Слоника в форме-->
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- Селектор -->
+  <!--Для кодепена <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css"/> -->
+  <!--Для компа-->
+  <link rel="stylesheet" href="css/choices.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1 class="visually-hidden">Я для семантики</h1>
+    <header class="header">
+      <div class="header__fon320">
+        <div class="container header__container">
+          <a href="#" class="header__logo">
+            <!--Для компа-->
+            <img class="header__logo-img" src="img/logo.png" alt="Логотип SitDownPls">
+            <!--Для кодепен
+				  <img class="header__logo-img" src="https://sun6-20.userapi.com/s/v1/if1/b57P6Zl3efepNIIxVjQxAvN7pWa8OLr4FCAw0HrrezAEIMth81yqQEjoCvK1kec-xrTrHdrM.jpg?size=50x50&quality=96&crop=0,0,1814,1814&ava=1" alt="Логотип SitDownPls"> -->
+          </a>
+        </div>
+      </div>
+      <div class="header__fon1920">
+        <div class="container header__container">
+          <div class="header__map-phone">
+            <div class="header__desc-city">
+              <p class="header__desrc desrc">Ваш регион</p>
+              <div class="header__city">
+                <select class="header__city-select" aria-label="Выбрать город">
+                  <option value="Москва">Москва</option>
+                  <option value="Казань">Казань</option>
+                  <option value="Пермь">Пермь</option>
+                  <option value="Уфа">Уфа</option>
+                </select>
+              </div>
+            </div>
+            <a href="tel:+7(495)885-45-47" class="header__linkPhone">
+              <svg width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M18.3425 14.0983C17.215 14.0983 16.1242 13.915 15.1067 13.585C14.7858 13.475 14.4283 13.5575 14.1808 13.805L12.7417 15.6108C10.1475 14.3733 7.71833 12.0358 6.42583 9.35L8.21333 7.82833C8.46083 7.57167 8.53417 7.21417 8.43333 6.89333C8.09417 5.87583 7.92 4.785 7.92 3.6575C7.92 3.1625 7.5075 2.75 7.0125 2.75H3.84083C3.34583 2.75 2.75 2.97 2.75 3.6575C2.75 12.1733 9.83583 19.25 18.3425 19.25C18.9933 19.25 19.25 18.6725 19.25 18.1683V15.0058C19.25 14.5108 18.8375 14.0983 18.3425 14.0983Z"
+                  fill="#FF862F" />
+              </svg> +7(495) 885-45-47
+            </a>
+          </div>
+          <ul class="header__list-about header__list-about_block1024">
+            <li class="header__item-about">
+              <a class="header__link-about" href="#" aria-label="Нажмите чтобы узнать о компании">О компании</a>
+            </li>
+            <li class="header__item-about">
+              <a class="header__link-about" href="#" aria-label="Нажмите чтобы узнать о гарантии и возврате">Гарантия и возврат</a>
+            </li>
+            <li class="header__item-about">
+              <a class="header__link-about" href="#"
+                aria-label="Нажмите чтобы узнать что мы предлагаем корпоративным клиентам">Корпоративным клиентам</a>
+            </li>
+            <li class="header__item-about">
+              <a class="header__link-about" href="#" aria-label="Нажмите чтобы посмотреть дизайн решения">Дизайн-решение</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header__ulFon1024">
+        <div class="container header__container header__container999">
+          <ul class="header__list-about">
+            <li class="header__item-about">
+              <a class="header__link-about" href="#" aria-label="Нажмите чтобы узнать о компании">О компании</a>
+            </li>
+            <li class="header__item-about">
+              <a class="header__link-about" href="#" aria-label="Нажмите чтобы узнать о гарантии и возврате">Гарантия и возврат</a>
+            </li>
+            <li class="header__item-about">
+              <a class="header__link-about" href="#"
+                aria-label="Нажмите чтобы узнать что мы предлагаем корпоративным клиентам">Корпоративным клиентам</a>
+            </li>
+            <li class="header__item-about">
+              <a class="header__link-about" href="#" aria-label="Нажмите чтобы посмотреть дизайн решения">Дизайн-решение</a>
+            </li>
+          </ul>
+          <div class="header__shop header__shop_1024">
+            <a href="#" class="header__shop-personal" aria-label="Личный кабинет">
+              <svg width="26" height="28" viewbox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M24.98 22.8503C24.3278 21.2785 23.3813 19.8508 22.1933 18.6467C21.0089 17.4392 19.6059 16.4764 18.0617 15.8116C18.0478 15.8045 18.034 15.801 18.0202 15.794C20.1742 14.2111 21.5744 11.6327 21.5744 8.72362C21.5744 3.90452 17.7367 0 13 0C8.26333 0 4.42559 3.90452 4.42559 8.72362C4.42559 11.6327 5.82585 14.2111 7.97982 15.7975C7.96599 15.8045 7.95216 15.808 7.93833 15.8151C6.38941 16.4799 4.99952 17.4332 3.80671 18.6503C2.61981 19.8553 1.67349 21.2827 1.02003 22.8538C0.37806 24.3918 0.0318323 26.0409 8.64563e-05 27.7116C-0.000836348 27.7491 0.00563604 27.7864 0.0191224 27.8214C0.0326088 27.8564 0.0528363 27.8882 0.0786128 27.9151C0.104389 27.942 0.135194 27.9633 0.16921 27.9779C0.203227 27.9925 0.239768 28 0.27668 28H2.35113C2.50326 28 2.62427 27.8769 2.62773 27.7256C2.69688 25.01 3.76868 22.4668 5.66335 20.5392C7.62371 18.5447 10.2271 17.4472 13 17.4472C15.7729 17.4472 18.3763 18.5447 20.3367 20.5392C22.2313 22.4668 23.3031 25.01 23.3723 27.7256C23.3757 27.8804 23.4967 28 23.6489 28H25.7233C25.7602 28 25.7968 27.9925 25.8308 27.9779C25.8648 27.9633 25.8956 27.942 25.9214 27.9151C25.9472 27.8882 25.9674 27.8564 25.9809 27.8214C25.9944 27.7864 26.0008 27.7491 25.9999 27.7116C25.9653 26.0301 25.6231 24.3945 24.98 22.8503ZM13 14.7739C11.413 14.7739 9.91943 14.1442 8.79577 13.001C7.67211 11.8578 7.05323 10.3382 7.05323 8.72362C7.05323 7.10905 7.67211 5.58945 8.79577 4.44623C9.91943 3.30301 11.413 2.67337 13 2.67337C14.587 2.67337 16.0806 3.30301 17.2042 4.44623C18.3279 5.58945 18.9468 7.10905 18.9468 8.72362C18.9468 10.3382 18.3279 11.8578 17.2042 13.001C16.0806 14.1442 14.587 14.7739 13 14.7739Z"
+                  fill="#A65CF0" />
+              </svg>
+            </a>
+            <a href="#" class="header__shop-cart" aria-label="Корзина">
+              <svg width="41" height="28" viewbox="0 0 41 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M39.8162 19.8503H19.902L20.9019 17.7365L37.5154 17.7052C38.0772 17.7052 38.5588 17.2887 38.6591 16.7125L40.9599 3.34598C41.0201 2.99541 40.9298 2.63444 40.7091 2.36023C40.6 2.22528 40.4639 2.11658 40.3103 2.04166C40.1567 1.96674 39.9892 1.9274 39.8195 1.92637L18.6848 1.85348L18.5042 0.971861C18.3905 0.40957 17.9022 0 17.3471 0H12.1805C11.8674 0 11.5671 0.129087 11.3458 0.358864C11.1244 0.588641 11 0.900285 11 1.22524C11 1.55019 11.1244 1.86184 11.3458 2.09161C11.5671 2.32139 11.8674 2.45048 12.1805 2.45048H16.3907L17.1799 6.34486L19.1228 16.1086L16.6214 20.3466C16.4915 20.5286 16.4133 20.7446 16.3956 20.9704C16.3778 21.1961 16.4213 21.4225 16.5211 21.6239C16.7218 22.0369 17.1264 22.2973 17.5745 22.2973H19.6746C19.2269 22.9145 18.9851 23.6662 18.9857 24.4388C18.9857 26.4034 20.524 28 22.4168 28C24.3096 28 25.8478 26.4034 25.8478 24.4388C25.8478 23.6648 25.6004 22.9116 25.159 22.2973H30.5463C30.0986 22.9145 29.8568 23.6662 29.8574 24.4388C29.8574 26.4034 31.3957 28 33.2885 28C35.1812 28 36.7195 26.4034 36.7195 24.4388C36.7195 23.6648 36.4721 22.9116 36.0307 22.2973H39.8195C40.4683 22.2973 41 21.7489 41 21.072C40.9981 20.7474 40.8725 20.4368 40.6507 20.2079C40.4289 19.979 40.1289 19.8504 39.8162 19.8503ZM19.1763 4.26925L38.4317 4.33519L36.5456 15.2964L21.4202 15.3242L19.1763 4.26925ZM22.4168 25.5356C21.8349 25.5356 21.36 25.0428 21.36 24.4388C21.36 23.8349 21.8349 23.342 22.4168 23.342C22.9987 23.342 23.4735 23.8349 23.4735 24.4388C23.4735 24.7297 23.3622 25.0087 23.164 25.2144C22.9658 25.4201 22.6971 25.5356 22.4168 25.5356ZM33.2885 25.5356C32.7066 25.5356 32.2317 25.0428 32.2317 24.4388C32.2317 23.8349 32.7066 23.342 33.2885 23.342C33.8704 23.342 34.3452 23.8349 34.3452 24.4388C34.3452 24.7297 34.2339 25.0087 34.0357 25.2144C33.8375 25.4201 33.5687 25.5356 33.2885 25.5356Z"
+                  fill="#A65CF0" />
+                <ellipse cx="7" cy="12.5" rx="7" ry="7.5" fill="#FF862F" />
+                <path
+                  d="M9.49512 12.4307C9.49512 13.6774 9.29004 14.6003 8.87988 15.1992C8.47298 15.7982 7.84473 16.0977 6.99512 16.0977C6.17155 16.0977 5.5498 15.7884 5.12988 15.1699C4.71322 14.5514 4.50488 13.6383 4.50488 12.4307C4.50488 11.1709 4.70833 10.2432 5.11523 9.64746C5.52214 9.0485 6.14876 8.74902 6.99512 8.74902C7.81868 8.74902 8.44043 9.06152 8.86035 9.68652C9.28353 10.3115 9.49512 11.2262 9.49512 12.4307ZM6.00391 12.4307C6.00391 13.3063 6.07878 13.9346 6.22852 14.3154C6.38151 14.693 6.63704 14.8818 6.99512 14.8818C7.34668 14.8818 7.60059 14.6898 7.75684 14.3057C7.91309 13.9215 7.99121 13.2965 7.99121 12.4307C7.99121 11.555 7.91146 10.9268 7.75195 10.5459C7.5957 10.1618 7.34342 9.96973 6.99512 9.96973C6.6403 9.96973 6.38639 10.1618 6.2334 10.5459C6.0804 10.9268 6.00391 11.555 6.00391 12.4307Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container header__container header__container_top1024">
+        <a href="#" class="header__logo header__logo_320">
+          <!--Для компа-->
+          <img class="header__logo-img" src="img/logo.png" alt="Логотип SitDownPls">
+          <!--Для кодепен
+          <img class="header__logo-img" src="https://sun6-20.userapi.com/s/v1/if1/b57P6Zl3efepNIIxVjQxAvN7pWa8OLr4FCAw0HrrezAEIMth81yqQEjoCvK1kec-xrTrHdrM.jpg?size=50x50&quality=96&crop=0,0,1814,1814&ava=1" alt="Логотип SitDownPls"> -->
+        </a>
+        <!-- header__block-burger нужен ради фона на всю ширину-->
+        <div class="header__block-burger">
+          <button id="burger" class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="header__block-menu menu" id="menu">
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a class="header__link" href="catalog.html" aria-label="Нажмите чтобы перейти в каталог">Каталог</a>
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="#" aria-label="Нажмите чтобы просмотреть список наших магазинов">Магазины</a>
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="#" aria-label="Нажмите чтобы войти в шоу рум">Шоу-рум</a>
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="#" aria-label="Нажмите чтобы узнать о доставке и оплате">Доставка и оплата</a>
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="#" aria-label="Нажмите чтобы узнать о дисконте">Дисконт</a>
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="#" aria-label="Нажмите чтобы узнать наши контакты">Контакты</a>
+                </li>
+              </ul>
+              <ul class="container header__list-about-2">
+                <li class="header__item-about">
+                  <a class="header__link-about" href="#" aria-label="Нажмите чтобы узнать о компании">О компании</a>
+                </li>
+                <li class="header__item-about">
+                  <a class="header__link-about" href="#" aria-label="Нажмите чтобы узнать о гарантии и возврате">Гарантия и возврат</a>
+                </li>
+                <li class="header__item-about">
+                  <a class="header__link-about" href="#" aria-label="Нажмите чтобы узнать что мы предлагаем корпоративным клиентам">Корпоративным клиентам</a>
+                </li>
+                <li class="header__item-about">
+                  <a class="header__link-about" href="#"
+                    aria-label="Нажмите чтобы посмотреть дизайн решения">Дизайн-решение</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__elephant-svg"></div>
+          </div>
+        </div>
+        <div class="header__shop header__shop_999">
+          <a href="#" class="header__shop-personal" aria-label="Личный кабинет">
+            <svg width="26" height="28" viewbox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24.98 22.8503C24.3278 21.2785 23.3813 19.8508 22.1933 18.6467C21.0089 17.4392 19.6059 16.4764 18.0617 15.8116C18.0478 15.8045 18.034 15.801 18.0202 15.794C20.1742 14.2111 21.5744 11.6327 21.5744 8.72362C21.5744 3.90452 17.7367 0 13 0C8.26333 0 4.42559 3.90452 4.42559 8.72362C4.42559 11.6327 5.82585 14.2111 7.97982 15.7975C7.96599 15.8045 7.95216 15.808 7.93833 15.8151C6.38941 16.4799 4.99952 17.4332 3.80671 18.6503C2.61981 19.8553 1.67349 21.2827 1.02003 22.8538C0.37806 24.3918 0.0318323 26.0409 8.64563e-05 27.7116C-0.000836348 27.7491 0.00563604 27.7864 0.0191224 27.8214C0.0326088 27.8564 0.0528363 27.8882 0.0786128 27.9151C0.104389 27.942 0.135194 27.9633 0.16921 27.9779C0.203227 27.9925 0.239768 28 0.27668 28H2.35113C2.50326 28 2.62427 27.8769 2.62773 27.7256C2.69688 25.01 3.76868 22.4668 5.66335 20.5392C7.62371 18.5447 10.2271 17.4472 13 17.4472C15.7729 17.4472 18.3763 18.5447 20.3367 20.5392C22.2313 22.4668 23.3031 25.01 23.3723 27.7256C23.3757 27.8804 23.4967 28 23.6489 28H25.7233C25.7602 28 25.7968 27.9925 25.8308 27.9779C25.8648 27.9633 25.8956 27.942 25.9214 27.9151C25.9472 27.8882 25.9674 27.8564 25.9809 27.8214C25.9944 27.7864 26.0008 27.7491 25.9999 27.7116C25.9653 26.0301 25.6231 24.3945 24.98 22.8503ZM13 14.7739C11.413 14.7739 9.91943 14.1442 8.79577 13.001C7.67211 11.8578 7.05323 10.3382 7.05323 8.72362C7.05323 7.10905 7.67211 5.58945 8.79577 4.44623C9.91943 3.30301 11.413 2.67337 13 2.67337C14.587 2.67337 16.0806 3.30301 17.2042 4.44623C18.3279 5.58945 18.9468 7.10905 18.9468 8.72362C18.9468 10.3382 18.3279 11.8578 17.2042 13.001C16.0806 14.1442 14.587 14.7739 13 14.7739Z"
+                fill="#A65CF0" />
+            </svg>
+          </a>
+          <a href="#" class="header__shop-cart" aria-label="Корзина">
+            <svg width="41" height="28" viewbox="0 0 41 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M39.8162 19.8503H19.902L20.9019 17.7365L37.5154 17.7052C38.0772 17.7052 38.5588 17.2887 38.6591 16.7125L40.9599 3.34598C41.0201 2.99541 40.9298 2.63444 40.7091 2.36023C40.6 2.22528 40.4639 2.11658 40.3103 2.04166C40.1567 1.96674 39.9892 1.9274 39.8195 1.92637L18.6848 1.85348L18.5042 0.971861C18.3905 0.40957 17.9022 0 17.3471 0H12.1805C11.8674 0 11.5671 0.129087 11.3458 0.358864C11.1244 0.588641 11 0.900285 11 1.22524C11 1.55019 11.1244 1.86184 11.3458 2.09161C11.5671 2.32139 11.8674 2.45048 12.1805 2.45048H16.3907L17.1799 6.34486L19.1228 16.1086L16.6214 20.3466C16.4915 20.5286 16.4133 20.7446 16.3956 20.9704C16.3778 21.1961 16.4213 21.4225 16.5211 21.6239C16.7218 22.0369 17.1264 22.2973 17.5745 22.2973H19.6746C19.2269 22.9145 18.9851 23.6662 18.9857 24.4388C18.9857 26.4034 20.524 28 22.4168 28C24.3096 28 25.8478 26.4034 25.8478 24.4388C25.8478 23.6648 25.6004 22.9116 25.159 22.2973H30.5463C30.0986 22.9145 29.8568 23.6662 29.8574 24.4388C29.8574 26.4034 31.3957 28 33.2885 28C35.1812 28 36.7195 26.4034 36.7195 24.4388C36.7195 23.6648 36.4721 22.9116 36.0307 22.2973H39.8195C40.4683 22.2973 41 21.7489 41 21.072C40.9981 20.7474 40.8725 20.4368 40.6507 20.2079C40.4289 19.979 40.1289 19.8504 39.8162 19.8503ZM19.1763 4.26925L38.4317 4.33519L36.5456 15.2964L21.4202 15.3242L19.1763 4.26925ZM22.4168 25.5356C21.8349 25.5356 21.36 25.0428 21.36 24.4388C21.36 23.8349 21.8349 23.342 22.4168 23.342C22.9987 23.342 23.4735 23.8349 23.4735 24.4388C23.4735 24.7297 23.3622 25.0087 23.164 25.2144C22.9658 25.4201 22.6971 25.5356 22.4168 25.5356ZM33.2885 25.5356C32.7066 25.5356 32.2317 25.0428 32.2317 24.4388C32.2317 23.8349 32.7066 23.342 33.2885 23.342C33.8704 23.342 34.3452 23.8349 34.3452 24.4388C34.3452 24.7297 34.2339 25.0087 34.0357 25.2144C33.8375 25.4201 33.5687 25.5356 33.2885 25.5356Z"
+                fill="#A65CF0" />
+              <ellipse cx="7" cy="12.5" rx="7" ry="7.5" fill="#FF862F" />
+              <path
+                d="M9.49512 12.4307C9.49512 13.6774 9.29004 14.6003 8.87988 15.1992C8.47298 15.7982 7.84473 16.0977 6.99512 16.0977C6.17155 16.0977 5.5498 15.7884 5.12988 15.1699C4.71322 14.5514 4.50488 13.6383 4.50488 12.4307C4.50488 11.1709 4.70833 10.2432 5.11523 9.64746C5.52214 9.0485 6.14876 8.74902 6.99512 8.74902C7.81868 8.74902 8.44043 9.06152 8.86035 9.68652C9.28353 10.3115 9.49512 11.2262 9.49512 12.4307ZM6.00391 12.4307C6.00391 13.3063 6.07878 13.9346 6.22852 14.3154C6.38151 14.693 6.63704 14.8818 6.99512 14.8818C7.34668 14.8818 7.60059 14.6898 7.75684 14.3057C7.91309 13.9215 7.99121 13.2965 7.99121 12.4307C7.99121 11.555 7.91146 10.9268 7.75195 10.5459C7.5957 10.1618 7.34342 9.96973 6.99512 9.96973C6.6403 9.96973 6.38639 10.1618 6.2334 10.5459C6.0804 10.9268 6.00391 11.555 6.00391 12.4307Z"
+                fill="white" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="container header__container">
+        <form class="header__form" action="/search/">
+          <div class="header__search-relative">
+            <div class="header__search-loupe">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.8187 16.0625L14.607 13.3156C15.5516 12.0945 16.0625 10.6016 16.0625 9.03125C16.0625 7.15156 15.3289 5.38906 14.0023 4.06016C12.6758 2.73125 10.9086 2 9.03125 2C7.15391 2 5.38672 2.73359 4.06016 4.06016C2.73125 5.38672 2 7.15156 2 9.03125C2 10.9086 2.73359 12.6758 4.06016 14.0023C5.38672 15.3312 7.15156 16.0625 9.03125 16.0625C10.6016 16.0625 12.0922 15.5516 13.3133 14.6094L16.5249 17.3539C16.5428 17.3718 16.564 17.3859 16.5873 17.3956C16.6106 17.4053 16.6356 17.4102 16.6609 17.4102C16.6861 17.4102 16.7111 17.4053 16.7344 17.3956C16.7578 17.3859 16.7789 17.3718 16.7968 17.3539L17.8187 16.3344C17.8365 16.3165 17.8507 16.2953 17.8604 16.272C17.87 16.2487 17.875 16.2237 17.875 16.1984C17.875 16.1732 17.87 16.1482 17.8604 16.1249C17.8507 16.1015 17.8365 16.0803 17.8187 16.0625ZM12.7438 12.7438C11.75 13.7352 10.4328 14.2812 9.03125 14.2812C7.62969 14.2812 6.3125 13.7352 5.31875 12.7438C4.32734 11.75 3.78125 10.4328 3.78125 9.03125C3.78125 7.62969 4.32734 6.31016 5.31875 5.31875C6.3125 4.32734 7.62969 3.78125 9.03125 3.78125C10.4328 3.78125 11.7523 4.325 12.7438 5.31875C13.7352 6.3125 14.2812 7.62969 14.2812 9.03125C14.2812 10.4328 13.7352 11.7523 12.7438 12.7438Z"
+                  fill="#999999" />
+              </svg>
+            </div>
+            <input class="header__input" type="search" name="text" placeholder="Я хочу купить..." minlength="2" maxlength="20" required>
+            <button class="header__search-arrow" type="submit" aria-label="Поиск">
+              <svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 11L19 16L14 21" stroke="#A65CF0" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <circle cx="16" cy="16" r="15" stroke="#A65CF0" stroke-width="2" />
+              </svg>
+            </button>
+          </div>
+          <!-- Дропдаун - Категория -->
+          <select class="header__сategories-select" id="choices" aria-label="Выбрать мебель">
+            <option value="">Категория</option>
+            <option>Диваны</option>
+            <option>Кресла</option>
+            <option>Пуфы</option>
+            <option>Кровати</option>
+            <option>Тумбы</option>
+            <option>Комоды</option>
+            <option>Стулья</option>
+            <option>Столы</option>
+            <option>Аксессуары</option>
+          </select>
+        </form>
+        <div class="header__shop header__shop_1920">
+          <a href="#" class="header__shop-personal" aria-label="Личный кабинет">
+            <svg width="26" height="28" viewbox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24.98 22.8503C24.3278 21.2785 23.3813 19.8508 22.1933 18.6467C21.0089 17.4392 19.6059 16.4764 18.0617 15.8116C18.0478 15.8045 18.034 15.801 18.0202 15.794C20.1742 14.2111 21.5744 11.6327 21.5744 8.72362C21.5744 3.90452 17.7367 0 13 0C8.26333 0 4.42559 3.90452 4.42559 8.72362C4.42559 11.6327 5.82585 14.2111 7.97982 15.7975C7.96599 15.8045 7.95216 15.808 7.93833 15.8151C6.38941 16.4799 4.99952 17.4332 3.80671 18.6503C2.61981 19.8553 1.67349 21.2827 1.02003 22.8538C0.37806 24.3918 0.0318323 26.0409 8.64563e-05 27.7116C-0.000836348 27.7491 0.00563604 27.7864 0.0191224 27.8214C0.0326088 27.8564 0.0528363 27.8882 0.0786128 27.9151C0.104389 27.942 0.135194 27.9633 0.16921 27.9779C0.203227 27.9925 0.239768 28 0.27668 28H2.35113C2.50326 28 2.62427 27.8769 2.62773 27.7256C2.69688 25.01 3.76868 22.4668 5.66335 20.5392C7.62371 18.5447 10.2271 17.4472 13 17.4472C15.7729 17.4472 18.3763 18.5447 20.3367 20.5392C22.2313 22.4668 23.3031 25.01 23.3723 27.7256C23.3757 27.8804 23.4967 28 23.6489 28H25.7233C25.7602 28 25.7968 27.9925 25.8308 27.9779C25.8648 27.9633 25.8956 27.942 25.9214 27.9151C25.9472 27.8882 25.9674 27.8564 25.9809 27.8214C25.9944 27.7864 26.0008 27.7491 25.9999 27.7116C25.9653 26.0301 25.6231 24.3945 24.98 22.8503ZM13 14.7739C11.413 14.7739 9.91943 14.1442 8.79577 13.001C7.67211 11.8578 7.05323 10.3382 7.05323 8.72362C7.05323 7.10905 7.67211 5.58945 8.79577 4.44623C9.91943 3.30301 11.413 2.67337 13 2.67337C14.587 2.67337 16.0806 3.30301 17.2042 4.44623C18.3279 5.58945 18.9468 7.10905 18.9468 8.72362C18.9468 10.3382 18.3279 11.8578 17.2042 13.001C16.0806 14.1442 14.587 14.7739 13 14.7739Z"
+                fill="#A65CF0" />
+            </svg>
+          </a>
+          <a href="#" class="header__shop-cart" aria-label="Корзина">
+            <svg width="41" height="28" viewbox="0 0 41 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M39.8162 19.8503H19.902L20.9019 17.7365L37.5154 17.7052C38.0772 17.7052 38.5588 17.2887 38.6591 16.7125L40.9599 3.34598C41.0201 2.99541 40.9298 2.63444 40.7091 2.36023C40.6 2.22528 40.4639 2.11658 40.3103 2.04166C40.1567 1.96674 39.9892 1.9274 39.8195 1.92637L18.6848 1.85348L18.5042 0.971861C18.3905 0.40957 17.9022 0 17.3471 0H12.1805C11.8674 0 11.5671 0.129087 11.3458 0.358864C11.1244 0.588641 11 0.900285 11 1.22524C11 1.55019 11.1244 1.86184 11.3458 2.09161C11.5671 2.32139 11.8674 2.45048 12.1805 2.45048H16.3907L17.1799 6.34486L19.1228 16.1086L16.6214 20.3466C16.4915 20.5286 16.4133 20.7446 16.3956 20.9704C16.3778 21.1961 16.4213 21.4225 16.5211 21.6239C16.7218 22.0369 17.1264 22.2973 17.5745 22.2973H19.6746C19.2269 22.9145 18.9851 23.6662 18.9857 24.4388C18.9857 26.4034 20.524 28 22.4168 28C24.3096 28 25.8478 26.4034 25.8478 24.4388C25.8478 23.6648 25.6004 22.9116 25.159 22.2973H30.5463C30.0986 22.9145 29.8568 23.6662 29.8574 24.4388C29.8574 26.4034 31.3957 28 33.2885 28C35.1812 28 36.7195 26.4034 36.7195 24.4388C36.7195 23.6648 36.4721 22.9116 36.0307 22.2973H39.8195C40.4683 22.2973 41 21.7489 41 21.072C40.9981 20.7474 40.8725 20.4368 40.6507 20.2079C40.4289 19.979 40.1289 19.8504 39.8162 19.8503ZM19.1763 4.26925L38.4317 4.33519L36.5456 15.2964L21.4202 15.3242L19.1763 4.26925ZM22.4168 25.5356C21.8349 25.5356 21.36 25.0428 21.36 24.4388C21.36 23.8349 21.8349 23.342 22.4168 23.342C22.9987 23.342 23.4735 23.8349 23.4735 24.4388C23.4735 24.7297 23.3622 25.0087 23.164 25.2144C22.9658 25.4201 22.6971 25.5356 22.4168 25.5356ZM33.2885 25.5356C32.7066 25.5356 32.2317 25.0428 32.2317 24.4388C32.2317 23.8349 32.7066 23.342 33.2885 23.342C33.8704 23.342 34.3452 23.8349 34.3452 24.4388C34.3452 24.7297 34.2339 25.0087 34.0357 25.2144C33.8375 25.4201 33.5687 25.5356 33.2885 25.5356Z"
+                fill="#A65CF0" />
+              <ellipse cx="7" cy="12.5" rx="7" ry="7.5" fill="#FF862F" />
+              <path
+                d="M9.49512 12.4307C9.49512 13.6774 9.29004 14.6003 8.87988 15.1992C8.47298 15.7982 7.84473 16.0977 6.99512 16.0977C6.17155 16.0977 5.5498 15.7884 5.12988 15.1699C4.71322 14.5514 4.50488 13.6383 4.50488 12.4307C4.50488 11.1709 4.70833 10.2432 5.11523 9.64746C5.52214 9.0485 6.14876 8.74902 6.99512 8.74902C7.81868 8.74902 8.44043 9.06152 8.86035 9.68652C9.28353 10.3115 9.49512 11.2262 9.49512 12.4307ZM6.00391 12.4307C6.00391 13.3063 6.07878 13.9346 6.22852 14.3154C6.38151 14.693 6.63704 14.8818 6.99512 14.8818C7.34668 14.8818 7.60059 14.6898 7.75684 14.3057C7.91309 13.9215 7.99121 13.2965 7.99121 12.4307C7.99121 11.555 7.91146 10.9268 7.75195 10.5459C7.5957 10.1618 7.34342 9.96973 6.99512 9.96973C6.6403 9.96973 6.38639 10.1618 6.2334 10.5459C6.0804 10.9268 6.00391 11.555 6.00391 12.4307Z"
+                fill="white" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__container">
+          <div class="hero__slider swiper">
+            <div class="hero__slider__wrapper swiper-wrapper">
+              <div class="hero__photo hero__photo--1 swiper-slide">
+                <div class="container hero__block-container">
+                  <div class="hero__padding">
+                    <h2 class="hero__title h2">Скидка 15%
+                      <span class="hero__span-nowrap">на первую покупку</span>
+                    </h2>
+                    <button class="hero__btn hero__btn_none580 btn" aria-label="Нажмите чтобы получить">Получить!</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__photo hero__photo--2 swiper-slide">
+                <div class="container hero__block-container">
+                  <div class="hero__padding">
+                    <h2 class="hero__title h2">1000+ аксессуаров для дома</h2>
+                    <button class="hero__btn hero__btn_none580 btn" aria-label="Нажмите чтобы получить">Получить!</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__photo hero__photo--3 swiper-slide">
+                <div class="container hero__block-container">
+                  <div class="hero__padding">
+                    <h2 class="hero__title h2">Коллекция стильного и яркого текстиля</h2>
+                    <button class="hero__btn hero__btn_none580 btn" aria-label="Нажмите чтобы получить">Получить!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero__pagination swiper-pagination"></div>
+          </div>
+          <button class="hero__btn-none1920 btn" aria-label="Нажмите чтобы получить">Получить!</button>
+        </div><!-- hero__container -->
+      </section>
+      <section class="offer">
+        <div class="container offer__container">
+          <!-- <div class="offer__swiper"> -->
+          <h2 class="offer__title h2">Специальные предложения</h2>
+          <div class="offer__navigation">
+            <button class="offer__btn offer__btn_prev arrowNav-btn arrowNav-btn_prev" tabindex="0" aria-label="Prev slide" aria-disabled="false"></button>
+            <button class="offer__btn offer__btn_next arrowNav-btn arrowNav-btn_next" tabindex="0" aria-label="Next slide" aria-disabled="false"></button>
+          </div>
+          <div class="offer__swiper-container swiper">
+            <ul class="offer__swiper-wrapper swiper-wrapper">
+              <li class="swiper-slide offer__item offer__item_small">
+                <span class="offer__ribbon">- 9 000</span>
+                <!--Для компа-->
+                <picture>
+                  <source srcset="./img/offer1-320.png" media="(max-width: 580px)">
+                  <source srcset="./img/offer1-768.png" media="(max-width: 999px)">
+                  <source srcset="./img/offer1-1024.png" media="(max-width: 1385px)">
+                  <img class="offer__image" src="./img/offer1-1920.png" alt="Кресло велюровое">
+                </picture>
+                <!--<img class="offer__image offer-modal" src="https://assets-a2.kompasiana.com/items/album/2015/09/19/welfare-55fd3d75169373ba0965e417.jpg?t=o&v=350" alt=""> Для codepen-->
+                <div class="offer__info">
+                  <div class="offer__block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="offer__h4">
+                      <a class="offer__link-h4" href="#" aria-label="Ссылка на Кресло велюровое">Кресло велюровое
+                        <span>“X-24”</span>
+                      </a>
+                    </h4>
+                    <div class="offer__block-span">
+                      <span class="offer__span offer__span_crusta">15 990 руб</span>
+                      <span class="offer__span offer__span_dustyGray">24 990 руб</span>
+                    </div>
+                  </div>
+                  <button class="offer__button btn" aria-label="Нажмите чтобы купить">Купить</button>
+                </div>
+              </li>
+              <li class="swiper-slide offer__item offer__item_big">
+                <span class="offer__ribbon">- 10 000</span>
+                <!--Для компа-->
+                <picture>
+                  <source srcset="./img/offer2-320.png" media="(max-width: 580px)">
+                  <source srcset="./img/offer2-768.png" media="(max-width: 999px)">
+                  <source srcset="./img/offer2-1024.png" media="(max-width: 1385px)">
+                  <img class="offer__image offer__image_big768" src="./img/offer2-1920.png" alt="Диван тканевый">
+                </picture>
+                <!--<img class="offer__image offer__image_big768 offer-modal" src="https://jooinn.com/images350_/wild-monkey-6.jpg" alt="Диван тканевый"> Для codepen-->
+                <div class="offer__info">
+                  <div class="offer__block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="offer__h4">
+                      <a class="offer__link-h4" href="#" aria-label="Ссылка на Диван тканевый">Диван тканевый
+                        <span>“Z-44”</span>
+                      </a>
+                    </h4>
+                    <div class="offer__block-span offer__block-span_big768">
+                      <span class="offer__span offer__span_crusta">22 990 руб</span>
+                      <span class="offer__span offer__span_dustyGray">32 990 руб</span>
+                    </div>
+                  </div>
+                  <button class="offer__button btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  <div class="offer__scheme offer__scheme_2"></div>
+                </div>
+              </li>
+              <li class="swiper-slide offer__item offer__item_small offer__item_padding65">
+                <span class="offer__ribbon">- 600</span>
+                <!--Для компа-->
+                <picture>
+                  <source srcset="./img/offer3-320.png" media="(max-width: 580px)">
+                  <img class="offer__image" src="./img/offer3-1920.png" alt="Будильник">
+                </picture>
+                <!--<img class="offer__image offer-modal" src="https://w0.pngwave.com/png/703/141/animation-black-and-white-man-cartoon-avatar-png-clip-art-thumbnail.png" alt="Будильник">  Для codepen-->
+                <div class="offer__info">
+                  <div class="offer__block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="offer__h4">
+                      <a class="offer__link-h4" href="#" aria-label="Ссылка на Будильник">Будильник
+                        <span>“Quartz-23”</span>
+                      </a>
+                    </h4>
+                    <div class="offer__block-span">
+                      <span class="offer__span offer__span_crusta">1 290 руб</span>
+                      <span class="offer__span offer__span_dustyGray">1 890 руб</span>
+                    </div>
+                  </div>
+                  <button class="offer__button btn" aria-label="Нажмите чтобы купить">Купить</button>
+                </div>
+              </li>
+              <li class="swiper-slide offer__item offer__item_small">
+                <span class="offer__ribbon">- 300</span>
+                <!--Для компа-->
+                <picture>
+                  <source srcset="./img/offer4-320.png" media="(max-width: 580px)">
+                  <img class="offer__image" src="./img/offer4-1920.png" alt="Мини-скульптура">
+                </picture>
+                <!--<img class="offer__image offer-modal" src="https://f0.pngfuel.com/png/710/309/ping-pong-paddles-sets-sport-ping-pong-png-clip-art-thumbnail.png" alt="Мини-скульптура"> Для codepen-->
+                <div class="offer__info">
+                  <div class="offer__block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="offer__h4">
+                      <a class="offer__link-h4" href="#" aria-label="Ссылка на Мини-скульптуру">Мини-скульптура
+                        <span>“Oh my deer”</span>
+                      </a>
+                    </h4>
+                    <div class="offer__block-span">
+                      <span class="offer__span offer__span_crusta">690 руб</span>
+                      <span class="offer__span offer__span_dustyGray">990 руб</span>
+                    </div>
+                  </div>
+                  <button class="offer__button btn" aria-label="Нажмите чтобы купить">Купить</button>
+                </div>
+              </li>
+              <li class="swiper-slide offer__item offer__item_big offer__item_padding58">
+                <span class="offer__ribbon">- 10 000</span>
+                <!--Для компа-->
+                <picture>
+                  <source srcset="./img/offer5-320.png" media="(max-width: 580px)">
+                  <img class="offer__image" src="./img/offer5-1920.png" alt="Диван вел-флок">
+                </picture>
+                <!--<img class="offer__image offer-modal" src="https://f0.pngfuel.com/png/443/191/sky-blue-green-club-penguin-101-dalmatiens-2-png-clip-art-thumbnail.png" alt="Диван вел-флок">Для codepen-->
+                <div class="offer__info">
+                  <div class="offer__block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="offer__h4">
+                      <a class="offer__link-h4" href="#" aria-label="Ссылка на Диван вел-флок">Диван вел-флок
+                        <span>“Z-85”</span>
+                      </a>
+                    </h4>
+                    <div class="offer__block-span">
+                      <span class="offer__span offer__span_crusta">22 990 руб</span>
+                      <span class="offer__span offer__span_dustyGray">32 990 руб</span>
+                    </div>
+                  </div>
+                  <button class="offer__button btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  <div class="offer__scheme offer__scheme_5"></div>
+                </div>
+              </li>
+              <li class="swiper-slide offer__item offer__item_small offer__item_padding6">
+                <span class="offer__ribbon">- 700</span>
+                <!--Для компа-->
+                <picture>
+                  <source srcset="./img/offer6-320.png" media="(max-width: 580px)">
+                  <img class="offer__image" src="./img/offer6-1920.png" alt="Термометр + гидрометр">
+                </picture>
+                <!--<img class="offer__image offer-modal" src="https://w0.pngwave.com/png/533/795/chibi-drawing-anime-mangaka-anime-couple-png-clip-art-thumbnail.png" alt="Термометр + гидрометр">Для codepen-->
+                <div class="offer__info">
+                  <div class="offer__block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="offer__h4">
+                      <a class="offer__link-h4" href="#" aria-label="Ссылка на Термометр +">Термометр +
+                        <span>гидрометр “H-18”</span>
+                      </a>
+                    </h4>
+                    <div class="offer__block-span">
+                      <span class="offer__span offer__span_crusta">1 390 руб</span>
+                      <span class="offer__span offer__span_dustyGray">2 090 руб</span>
+                    </div>
+                  </div>
+                  <button class="offer__button btn" aria-label="Нажмите чтобы купить">Купить</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- </div> -->
+        </div>
+        <!--Конец offer__container-->
+      </section>
+      <section class="divan">
+        <div class="container divan__container">
+          <h2 class="divan__title h2">Высокий рейтинг</h2>
+          <ul class="divan__list divan__list_js product-list">
+            <li class="divan__item divan__item_js product-item">
+              <article class="divan__article product-article">
+                <div class="divan__position product-position"><!--Блок не удалять-->
+                  <span class="divan__asterisk product-asterisk">
+                    <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.2257 5.28193L10.5089 4.59758L8.40032 0.330127C8.34273 0.213287 8.24799 0.118702 8.13095 0.0612089C7.83742 -0.0834504 7.48074 0.037099 7.33398 0.330127L5.22543 4.59758L0.508622 5.28193C0.378579 5.30047 0.259684 5.36167 0.168654 5.45441C0.0586046 5.56733 -0.00203778 5.71924 5.22879e-05 5.87678C0.00214235 6.03431 0.0667938 6.18457 0.179801 6.29454L3.59248 9.61614L2.78622 14.3064C2.76731 14.4156 2.7794 14.5278 2.82113 14.6304C2.86285 14.733 2.93253 14.8218 3.02228 14.8869C3.11202 14.952 3.21823 14.9906 3.32886 14.9985C3.4395 15.0064 3.55013 14.9831 3.64821 14.9314L7.86715 12.717L12.0861 14.9314C12.2013 14.9926 12.335 15.013 12.4632 14.9908C12.7865 14.9352 13.0038 14.6291 12.9481 14.3064L12.1418 9.61614L15.5545 6.29454C15.6474 6.20367 15.7087 6.08497 15.7273 5.95515C15.7774 5.63059 15.5508 5.33015 15.2257 5.28193Z"
+                        fill="#FF862F" />
+                    </svg>
+                    5,0
+                  </span>
+                  <!--Для компа-->
+                  <picture>
+                    <source srcset="./img/divan1-320.png" media="(max-width: 580px)">
+                    <source srcset="./img/divan1-768.png" media="(max-width: 999px)">
+                    <source srcset="./img/divan1-1024.png" media="(max-width: 1385px)">
+                    <img class="divan__image" src="./img/divan1-1920.png" alt="Картина">
+                  </picture>
+                  <!--<img src="https://mebelsz.ru/d/480_4.jpg" alt="Картина"> Для codepen-->
+                </div>
+                <div class="divan__info product-info">
+                  <div class="divan__block product-block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="divan__h4 product-text">
+                      <a class="divan__h4-link product-text-link" href="#" aria-label="Ссылка на Диван кожаный">Диван
+                        кожаный
+                        <span>“R-94”</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="divan__block-span product-block-span">
+                    <span class="divan__span divan__span_dustyGray product-span">94 990 руб</span>
+                    <button class="divan__button btn product-btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="divan__item divan__item_js product-item">
+              <article class="divan__article product-article">
+                <div class="divan__position product-position"><!--Блок не удалять-->
+                  <span class="divan__asterisk product-asterisk">
+                    <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.2257 5.28193L10.5089 4.59758L8.40032 0.330127C8.34273 0.213287 8.24799 0.118702 8.13095 0.0612089C7.83742 -0.0834504 7.48074 0.037099 7.33398 0.330127L5.22543 4.59758L0.508622 5.28193C0.378579 5.30047 0.259684 5.36167 0.168654 5.45441C0.0586046 5.56733 -0.00203778 5.71924 5.22879e-05 5.87678C0.00214235 6.03431 0.0667938 6.18457 0.179801 6.29454L3.59248 9.61614L2.78622 14.3064C2.76731 14.4156 2.7794 14.5278 2.82113 14.6304C2.86285 14.733 2.93253 14.8218 3.02228 14.8869C3.11202 14.952 3.21823 14.9906 3.32886 14.9985C3.4395 15.0064 3.55013 14.9831 3.64821 14.9314L7.86715 12.717L12.0861 14.9314C12.2013 14.9926 12.335 15.013 12.4632 14.9908C12.7865 14.9352 13.0038 14.6291 12.9481 14.3064L12.1418 9.61614L15.5545 6.29454C15.6474 6.20367 15.7087 6.08497 15.7273 5.95515C15.7774 5.63059 15.5508 5.33015 15.2257 5.28193Z"
+                        fill="#FF862F" />
+                    </svg>
+                    4,9
+                  </span>
+                  <!--Для компа-->
+                  <picture>
+                    <source srcset="./img/divan2-320.png" media="(max-width: 580px)">
+                    <source srcset="./img/divan2-768.png" media="(max-width: 999px)">
+                    <source srcset="./img/divan2-1024.png" media="(max-width: 1385px)">
+                    <img class="divan__image" src="./img/divan2-1920.png" alt="Картина">
+                  </picture>
+                  <!--<img src="https://mebelsz.ru/d/480_4.jpg" alt="Картина"> Для codepen-->
+                </div>
+                <div class="divan__info product-info">
+                  <div class="divan__block product-block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="divan__h4 product-text">
+                      <a class="divan__h4-link product-text-link" href="#"
+                        aria-label="Ссылка на Диван апартековый">Диван апартековый
+                        <span>“T-75”</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="divan__block-span product-block-span">
+                    <span class="divan__span divan__span_dustyGray product-span">69 990 руб</span>
+                    <button class="divan__button btn product-btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="divan__item divan__item_js product-item">
+              <article class="divan__article product-article">
+                <div class="divan__position product-position"><!--Блок не удалять-->
+                  <span class="divan__asterisk product-asterisk">
+                    <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.2257 5.28193L10.5089 4.59758L8.40032 0.330127C8.34273 0.213287 8.24799 0.118702 8.13095 0.0612089C7.83742 -0.0834504 7.48074 0.037099 7.33398 0.330127L5.22543 4.59758L0.508622 5.28193C0.378579 5.30047 0.259684 5.36167 0.168654 5.45441C0.0586046 5.56733 -0.00203778 5.71924 5.22879e-05 5.87678C0.00214235 6.03431 0.0667938 6.18457 0.179801 6.29454L3.59248 9.61614L2.78622 14.3064C2.76731 14.4156 2.7794 14.5278 2.82113 14.6304C2.86285 14.733 2.93253 14.8218 3.02228 14.8869C3.11202 14.952 3.21823 14.9906 3.32886 14.9985C3.4395 15.0064 3.55013 14.9831 3.64821 14.9314L7.86715 12.717L12.0861 14.9314C12.2013 14.9926 12.335 15.013 12.4632 14.9908C12.7865 14.9352 13.0038 14.6291 12.9481 14.3064L12.1418 9.61614L15.5545 6.29454C15.6474 6.20367 15.7087 6.08497 15.7273 5.95515C15.7774 5.63059 15.5508 5.33015 15.2257 5.28193Z"
+                        fill="#FF862F" />
+                    </svg>
+                    4,8
+                  </span>
+                  <!--Для компа-->
+                  <picture>
+                    <source srcset="./img/divan3-320.png" media="(max-width: 580px)">
+                    <source srcset="./img/divan3-768.png" media="(max-width: 999px)">
+                    <source srcset="./img/divan3-1024.png" media="(max-width: 1385px)">
+                    <img class="divan__image" src="./img/divan3-1920.png" alt="Картина">
+                  </picture>
+                  <!--<img src="https://mebelsz.ru/d/480_4.jpg" alt="Картина"> Для codepen-->
+                </div>
+                <div class="divan__info product-info">
+                  <div class="divan__block product-block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="divan__h4 product-text">
+                      <a class="divan__h4-link product-text-link" href="d-31.html"
+                        aria-label="Ссылка на Диван тканевый">Диван тканевый
+                        <span>“D-31”</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="divan__block-span product-block-span">
+                    <span class="divan__span divan__span_dustyGray product-span">28 490 руб</span>
+                    <button class="divan__button btn product-btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="divan__item divan__item_js product-item">
+              <article class="divan__article product-article">
+                <div class="divan__position product-position"><!--Блок не удалять-->
+                  <span class="divan__asterisk product-asterisk">
+                    <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.2257 5.28193L10.5089 4.59758L8.40032 0.330127C8.34273 0.213287 8.24799 0.118702 8.13095 0.0612089C7.83742 -0.0834504 7.48074 0.037099 7.33398 0.330127L5.22543 4.59758L0.508622 5.28193C0.378579 5.30047 0.259684 5.36167 0.168654 5.45441C0.0586046 5.56733 -0.00203778 5.71924 5.22879e-05 5.87678C0.00214235 6.03431 0.0667938 6.18457 0.179801 6.29454L3.59248 9.61614L2.78622 14.3064C2.76731 14.4156 2.7794 14.5278 2.82113 14.6304C2.86285 14.733 2.93253 14.8218 3.02228 14.8869C3.11202 14.952 3.21823 14.9906 3.32886 14.9985C3.4395 15.0064 3.55013 14.9831 3.64821 14.9314L7.86715 12.717L12.0861 14.9314C12.2013 14.9926 12.335 15.013 12.4632 14.9908C12.7865 14.9352 13.0038 14.6291 12.9481 14.3064L12.1418 9.61614L15.5545 6.29454C15.6474 6.20367 15.7087 6.08497 15.7273 5.95515C15.7774 5.63059 15.5508 5.33015 15.2257 5.28193Z"
+                        fill="#FF862F" />
+                    </svg>
+                    4,8
+                  </span>
+                  <!--Для компа-->
+                  <picture>
+                    <source srcset="./img/divan4-320.png" media="(max-width: 580px)">
+                    <source srcset="./img/divan4-768.png" media="(max-width: 999px)">
+                    <source srcset="./img/divan4-1024.png" media="(max-width: 1385px)">
+                    <img class="divan__image" src="./img/divan4-1920.png" alt="Картина">
+                  </picture>
+                  <!--<img src="https://mebelsz.ru/d/480_4.jpg" alt="Картина"> Для codepen-->
+                </div>
+                <div class="divan__info product-info">
+                  <div class="divan__block product-block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="divan__h4 product-text">
+                      <a class="divan__h4-link product-text-link" href="#" aria-label="Ссылка на Диван велюровый">Диван
+                        велюровый
+                        <span>“Y-68”</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="divan__block-span product-block-span">
+                    <span class="divan__span divan__span_dustyGray product-span">22 990 руб</span>
+                    <button class="divan__button btn product-btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="divan__item divan__item_js product-item">
+              <article class="divan__article product-article">
+                <div class="divan__position product-position"><!--Блок не удалять-->
+                  <span class="divan__asterisk product-asterisk">
+                    <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.2257 5.28193L10.5089 4.59758L8.40032 0.330127C8.34273 0.213287 8.24799 0.118702 8.13095 0.0612089C7.83742 -0.0834504 7.48074 0.037099 7.33398 0.330127L5.22543 4.59758L0.508622 5.28193C0.378579 5.30047 0.259684 5.36167 0.168654 5.45441C0.0586046 5.56733 -0.00203778 5.71924 5.22879e-05 5.87678C0.00214235 6.03431 0.0667938 6.18457 0.179801 6.29454L3.59248 9.61614L2.78622 14.3064C2.76731 14.4156 2.7794 14.5278 2.82113 14.6304C2.86285 14.733 2.93253 14.8218 3.02228 14.8869C3.11202 14.952 3.21823 14.9906 3.32886 14.9985C3.4395 15.0064 3.55013 14.9831 3.64821 14.9314L7.86715 12.717L12.0861 14.9314C12.2013 14.9926 12.335 15.013 12.4632 14.9908C12.7865 14.9352 13.0038 14.6291 12.9481 14.3064L12.1418 9.61614L15.5545 6.29454C15.6474 6.20367 15.7087 6.08497 15.7273 5.95515C15.7774 5.63059 15.5508 5.33015 15.2257 5.28193Z"
+                        fill="#FF862F" />
+                    </svg>
+                    4,8
+                  </span>
+                  <!--Для компа-->
+                  <picture>
+                    <source srcset="./img/divan5-320.png" media="(max-width: 580px)">
+                    <source srcset="./img/divan5-768.png" media="(max-width: 999px)">
+                    <source srcset="./img/divan5-1024.png" media="(max-width: 1385px)">
+                    <img class="divan__image" src="./img/divan5-1920.png" alt="Картина">
+                  </picture>
+                  <!--<img src="https://mebelsz.ru/d/480_4.jpg" alt="Картина"> Для codepen-->
+                </div>
+                <div class="divan__info product-info">
+                  <div class="divan__block product-block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="divan__h4 product-text">
+                      <a class="divan__h4-link product-text-link" href="#" aria-label="Ссылка на Диван шинила">Диван из шинила
+                        <span>“W-95”</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="divan__block-span product-block-span">
+                    <span class="divan__span divan__span_dustyGray product-span">22 990 руб</span>
+                    <button class="divan__button btn product-btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="divan__item divan__item_js product-item">
+              <article class="divan__article product-article">
+                <div class="divan__position product-position"><!--Блок не удалять-->
+                  <span class="divan__asterisk product-asterisk">
+                    <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.2257 5.28193L10.5089 4.59758L8.40032 0.330127C8.34273 0.213287 8.24799 0.118702 8.13095 0.0612089C7.83742 -0.0834504 7.48074 0.037099 7.33398 0.330127L5.22543 4.59758L0.508622 5.28193C0.378579 5.30047 0.259684 5.36167 0.168654 5.45441C0.0586046 5.56733 -0.00203778 5.71924 5.22879e-05 5.87678C0.00214235 6.03431 0.0667938 6.18457 0.179801 6.29454L3.59248 9.61614L2.78622 14.3064C2.76731 14.4156 2.7794 14.5278 2.82113 14.6304C2.86285 14.733 2.93253 14.8218 3.02228 14.8869C3.11202 14.952 3.21823 14.9906 3.32886 14.9985C3.4395 15.0064 3.55013 14.9831 3.64821 14.9314L7.86715 12.717L12.0861 14.9314C12.2013 14.9926 12.335 15.013 12.4632 14.9908C12.7865 14.9352 13.0038 14.6291 12.9481 14.3064L12.1418 9.61614L15.5545 6.29454C15.6474 6.20367 15.7087 6.08497 15.7273 5.95515C15.7774 5.63059 15.5508 5.33015 15.2257 5.28193Z"
+                        fill="#FF862F" />
+                    </svg>
+                    4,8
+                  </span>
+                  <!--Для компа-->
+                  <picture>
+                    <source srcset="./img/divan6-320.png" media="(max-width: 580px)">
+                    <source srcset="./img/divan6-768.png" media="(max-width: 999px)">
+                    <source srcset="./img/divan6-1024.png" media="(max-width: 1385px)">
+                    <img class="divan__image" src="./img/divan6-1920.png" alt="Картина">
+                  </picture>
+                  <!--<img src="https://mebelsz.ru/d/480_4.jpg" alt="Картина"> Для codepen-->
+                </div>
+                <div class="divan__info product-info">
+                  <div class="divan__block product-block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="divan__h4 product-text">
+                      <a class="divan__h4-link product-text-link" href="#" aria-label="Ссылка на Диван флоковый">Диван
+                        флоковый
+                        <span>“G-41”</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="divan__block-span product-block-span">
+                    <span class="divan__span divan__span_dustyGray product-span">17 990 руб</span>
+                    <button class="divan__button btn product-btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="divan__item divan__item_js product-item">
+              <article class="divan__article product-article">
+                <div class="divan__position product-position"><!--Блок не удалять-->
+                  <span class="divan__asterisk product-asterisk">
+                    <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.2257 5.28193L10.5089 4.59758L8.40032 0.330127C8.34273 0.213287 8.24799 0.118702 8.13095 0.0612089C7.83742 -0.0834504 7.48074 0.037099 7.33398 0.330127L5.22543 4.59758L0.508622 5.28193C0.378579 5.30047 0.259684 5.36167 0.168654 5.45441C0.0586046 5.56733 -0.00203778 5.71924 5.22879e-05 5.87678C0.00214235 6.03431 0.0667938 6.18457 0.179801 6.29454L3.59248 9.61614L2.78622 14.3064C2.76731 14.4156 2.7794 14.5278 2.82113 14.6304C2.86285 14.733 2.93253 14.8218 3.02228 14.8869C3.11202 14.952 3.21823 14.9906 3.32886 14.9985C3.4395 15.0064 3.55013 14.9831 3.64821 14.9314L7.86715 12.717L12.0861 14.9314C12.2013 14.9926 12.335 15.013 12.4632 14.9908C12.7865 14.9352 13.0038 14.6291 12.9481 14.3064L12.1418 9.61614L15.5545 6.29454C15.6474 6.20367 15.7087 6.08497 15.7273 5.95515C15.7774 5.63059 15.5508 5.33015 15.2257 5.28193Z"
+                        fill="#FF862F" />
+                    </svg>
+                    4,8
+                  </span>
+                  <!--Для компа-->
+                  <picture>
+                    <source srcset="./img/divan7-320.png" media="(max-width: 580px)">
+                    <source srcset="./img/divan7-768.png" media="(max-width: 999px)">
+                    <source srcset="./img/divan7-1024.png" media="(max-width: 1385px)">
+                    <img class="divan__image" src="./img/divan7-1920.png" alt="Картина">
+                  </picture>
+                  <!--<img src="https://mebelsz.ru/d/480_4.jpg" alt="Картина"> Для codepen-->
+                </div>
+                <div class="divan__info product-info">
+                  <div class="divan__block product-block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="divan__h4 product-text">
+                      <a class="divan__h4-link product-text-link" href="#" aria-label="Ссылка на Диван шиниловый">Диван
+                        шиниловый
+                        <span>“V-43”</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="divan__block-span product-block-span">
+                    <span class="divan__span divan__span_dustyGray product-span">19 990 руб</span>
+                    <button class="divan__button btn product-btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="divan__item divan__item_js product-item">
+              <article class="divan__article product-article">
+                <div class="divan__position product-position"><!--Блок не удалять-->
+                  <span class="divan__asterisk product-asterisk">
+                    <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.2257 5.28193L10.5089 4.59758L8.40032 0.330127C8.34273 0.213287 8.24799 0.118702 8.13095 0.0612089C7.83742 -0.0834504 7.48074 0.037099 7.33398 0.330127L5.22543 4.59758L0.508622 5.28193C0.378579 5.30047 0.259684 5.36167 0.168654 5.45441C0.0586046 5.56733 -0.00203778 5.71924 5.22879e-05 5.87678C0.00214235 6.03431 0.0667938 6.18457 0.179801 6.29454L3.59248 9.61614L2.78622 14.3064C2.76731 14.4156 2.7794 14.5278 2.82113 14.6304C2.86285 14.733 2.93253 14.8218 3.02228 14.8869C3.11202 14.952 3.21823 14.9906 3.32886 14.9985C3.4395 15.0064 3.55013 14.9831 3.64821 14.9314L7.86715 12.717L12.0861 14.9314C12.2013 14.9926 12.335 15.013 12.4632 14.9908C12.7865 14.9352 13.0038 14.6291 12.9481 14.3064L12.1418 9.61614L15.5545 6.29454C15.6474 6.20367 15.7087 6.08497 15.7273 5.95515C15.7774 5.63059 15.5508 5.33015 15.2257 5.28193Z"
+                        fill="#FF862F" />
+                    </svg>
+                    4,7
+                  </span>
+                  <!--Для компа-->
+                  <picture>
+                    <source srcset="./img/divan8-320.png" media="(max-width: 580px)">
+                    <source srcset="./img/divan8-768.png" media="(max-width: 999px)">
+                    <source srcset="./img/divan8-1024.png" media="(max-width: 1385px)">
+                    <img class="divan__image" src="./img/divan8-1920.png" alt="Картина">
+                  </picture>
+                  <!--<img src="https://mebelsz.ru/d/480_4.jpg" alt="Картина"> Для codepen-->
+                </div>
+                <div class="divan__info product-info">
+                  <div class="divan__block product-block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="divan__h4 product-text">
+                      <a class="divan__h4-link product-text-link" href="#" aria-label="Ссылка на Диван велюровый">Диван
+                        велюровый
+                        <span>“S-99”</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="divan__block-span product-block-span">
+                    <span class="divan__span divan__span_dustyGray product-span">19 990 руб</span>
+                    <button class="divan__button btn product-btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="divan__item divan__item_js product-item">
+              <article class="divan__article product-article">
+                <div class="divan__position product-position"><!--Блок не удалять-->
+                  <span class="divan__asterisk product-asterisk">
+                    <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.2257 5.28193L10.5089 4.59758L8.40032 0.330127C8.34273 0.213287 8.24799 0.118702 8.13095 0.0612089C7.83742 -0.0834504 7.48074 0.037099 7.33398 0.330127L5.22543 4.59758L0.508622 5.28193C0.378579 5.30047 0.259684 5.36167 0.168654 5.45441C0.0586046 5.56733 -0.00203778 5.71924 5.22879e-05 5.87678C0.00214235 6.03431 0.0667938 6.18457 0.179801 6.29454L3.59248 9.61614L2.78622 14.3064C2.76731 14.4156 2.7794 14.5278 2.82113 14.6304C2.86285 14.733 2.93253 14.8218 3.02228 14.8869C3.11202 14.952 3.21823 14.9906 3.32886 14.9985C3.4395 15.0064 3.55013 14.9831 3.64821 14.9314L7.86715 12.717L12.0861 14.9314C12.2013 14.9926 12.335 15.013 12.4632 14.9908C12.7865 14.9352 13.0038 14.6291 12.9481 14.3064L12.1418 9.61614L15.5545 6.29454C15.6474 6.20367 15.7087 6.08497 15.7273 5.95515C15.7774 5.63059 15.5508 5.33015 15.2257 5.28193Z"
+                        fill="#FF862F" />
+                    </svg>
+                    4,7
+                  </span>
+                  <!--Для компа-->
+                  <picture>
+                    <source srcset="./img/divan9-320.png" media="(max-width: 580px)">
+                    <source srcset="./img/divan9-768.png" media="(max-width: 999px)">
+                    <source srcset="./img/divan9-1024.png" media="(max-width: 1385px)">
+                    <img class="divan__image" src="./img/divan9-1920.png" alt="Картина">
+                  </picture>
+                  <!--<img src="https://mebelsz.ru/d/480_4.jpg" alt="Картина"> Для codepen-->
+                </div>
+                <div class="divan__info product-info">
+                  <div class="divan__block product-block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="divan__h4 product-text">
+                      <a class="divan__h4-link product-text-link" href="#" aria-label="Ссылка на Диван из кожзама">Диван из кожзама
+                        <span>“F-85”</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="divan__block-span product-block-span">
+                    <span class="divan__span divan__span_dustyGray product-span">26 990 руб</span>
+                    <button class="divan__button btn product-btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="divan__item divan__item_js product-item">
+              <article class="divan__article product-article">
+                <div class="divan__position product-position"><!--Блок не удалять-->
+                  <span class="divan__asterisk product-asterisk">
+                    <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.2257 5.28193L10.5089 4.59758L8.40032 0.330127C8.34273 0.213287 8.24799 0.118702 8.13095 0.0612089C7.83742 -0.0834504 7.48074 0.037099 7.33398 0.330127L5.22543 4.59758L0.508622 5.28193C0.378579 5.30047 0.259684 5.36167 0.168654 5.45441C0.0586046 5.56733 -0.00203778 5.71924 5.22879e-05 5.87678C0.00214235 6.03431 0.0667938 6.18457 0.179801 6.29454L3.59248 9.61614L2.78622 14.3064C2.76731 14.4156 2.7794 14.5278 2.82113 14.6304C2.86285 14.733 2.93253 14.8218 3.02228 14.8869C3.11202 14.952 3.21823 14.9906 3.32886 14.9985C3.4395 15.0064 3.55013 14.9831 3.64821 14.9314L7.86715 12.717L12.0861 14.9314C12.2013 14.9926 12.335 15.013 12.4632 14.9908C12.7865 14.9352 13.0038 14.6291 12.9481 14.3064L12.1418 9.61614L15.5545 6.29454C15.6474 6.20367 15.7087 6.08497 15.7273 5.95515C15.7774 5.63059 15.5508 5.33015 15.2257 5.28193Z"
+                        fill="#FF862F" />
+                    </svg>
+                    4,6
+                  </span>
+                  <!--Для компа-->
+                  <picture>
+                    <source srcset="./img/divan10-320.png" media="(max-width: 580px)">
+                    <source srcset="./img/divan10-768.png" media="(max-width: 999px)">
+                    <source srcset="./img/divan10-1024.png" media="(max-width: 1385px)">
+                    <img class="divan__image" src="./img/divan10-1920.png" alt="Картина">
+                  </picture>
+                  <!--<img src="https://mebelsz.ru/d/480_4.jpg" alt="Картина"> Для codepen-->
+                </div>
+                <div class="divan__info product-info">
+                  <div class="divan__block product-block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="divan__h4 product-text">
+                      <a class="divan__h4-link product-text-link" href="#" aria-label="Ссылка на Диван флоковый">Диван
+                        флоковый
+                        <span>“H-64”</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="divan__block-span product-block-span">
+                    <span class="divan__span divan__span_dustyGray product-span">25 990 руб</span>
+                    <button class="divan__button btn product-btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="divan__item divan__item_js product-item">
+              <article class="divan__article product-article">
+                <div class="divan__position product-position"><!--Блок не удалять-->
+                  <span class="divan__asterisk product-asterisk">
+                    <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.2257 5.28193L10.5089 4.59758L8.40032 0.330127C8.34273 0.213287 8.24799 0.118702 8.13095 0.0612089C7.83742 -0.0834504 7.48074 0.037099 7.33398 0.330127L5.22543 4.59758L0.508622 5.28193C0.378579 5.30047 0.259684 5.36167 0.168654 5.45441C0.0586046 5.56733 -0.00203778 5.71924 5.22879e-05 5.87678C0.00214235 6.03431 0.0667938 6.18457 0.179801 6.29454L3.59248 9.61614L2.78622 14.3064C2.76731 14.4156 2.7794 14.5278 2.82113 14.6304C2.86285 14.733 2.93253 14.8218 3.02228 14.8869C3.11202 14.952 3.21823 14.9906 3.32886 14.9985C3.4395 15.0064 3.55013 14.9831 3.64821 14.9314L7.86715 12.717L12.0861 14.9314C12.2013 14.9926 12.335 15.013 12.4632 14.9908C12.7865 14.9352 13.0038 14.6291 12.9481 14.3064L12.1418 9.61614L15.5545 6.29454C15.6474 6.20367 15.7087 6.08497 15.7273 5.95515C15.7774 5.63059 15.5508 5.33015 15.2257 5.28193Z"
+                        fill="#FF862F" />
+                    </svg>
+                    4,6
+                  </span>
+                  <!--Для компа-->
+                  <picture>
+                    <source srcset="./img/divan11-320.png" media="(max-width: 580px)">
+                    <source srcset="./img/divan11-768.png" media="(max-width: 999px)">
+                    <source srcset="./img/divan11-1024.png" media="(max-width: 1385px)">
+                    <img class="divan__image" src="./img/divan11-1920.png" alt="Картина">
+                  </picture>
+                  <!--<img src="https://mebelsz.ru/d/480_4.jpg" alt="Картина"> Для codepen-->
+                </div>
+                <div class="divan__info product-info">
+                  <div class="divan__block product-block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="divan__h4 product-text">
+                      <a class="divan__h4-link product-text-link" href="#" aria-label="Ссылка на Диван флоковый">Диван
+                        флоковый
+                        <span>“H-58”</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="divan__block-span product-block-span">
+                    <span class="divan__span divan__span_dustyGray product-span">23 990 руб</span>
+                    <button class="divan__button btn product-btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="divan__item divan__item_js product-item">
+              <article class="divan__article product-article">
+                <div class="divan__position product-position"><!--Блок не удалять-->
+                  <span class="divan__asterisk product-asterisk">
+                    <svg width="16" height="15" viewbox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.2257 5.28193L10.5089 4.59758L8.40032 0.330127C8.34273 0.213287 8.24799 0.118702 8.13095 0.0612089C7.83742 -0.0834504 7.48074 0.037099 7.33398 0.330127L5.22543 4.59758L0.508622 5.28193C0.378579 5.30047 0.259684 5.36167 0.168654 5.45441C0.0586046 5.56733 -0.00203778 5.71924 5.22879e-05 5.87678C0.00214235 6.03431 0.0667938 6.18457 0.179801 6.29454L3.59248 9.61614L2.78622 14.3064C2.76731 14.4156 2.7794 14.5278 2.82113 14.6304C2.86285 14.733 2.93253 14.8218 3.02228 14.8869C3.11202 14.952 3.21823 14.9906 3.32886 14.9985C3.4395 15.0064 3.55013 14.9831 3.64821 14.9314L7.86715 12.717L12.0861 14.9314C12.2013 14.9926 12.335 15.013 12.4632 14.9908C12.7865 14.9352 13.0038 14.6291 12.9481 14.3064L12.1418 9.61614L15.5545 6.29454C15.6474 6.20367 15.7087 6.08497 15.7273 5.95515C15.7774 5.63059 15.5508 5.33015 15.2257 5.28193Z"
+                        fill="#FF862F" />
+                    </svg>
+                    4,6
+                  </span>
+                  <!--Для компа-->
+                  <picture>
+                    <source srcset="./img/divan12-320.png" media="(max-width: 580px)">
+                    <source srcset="./img/divan12-768.png" media="(max-width: 999px)">
+                    <source srcset="./img/divan12-1024.png" media="(max-width: 1385px)">
+                    <img class="divan__image" src="./img/divan12-1920.png" alt="Картина">
+                  </picture>
+                  <!--<img src="https://mebelsz.ru/d/480_4.jpg" alt="Картина"> Для codepen-->
+                </div>
+                <div class="divan__info product-info">
+                  <div class="divan__block product-block">
+                    <!--<-Блок для выравнивание текста-->
+                    <h4 class="divan__h4 product-text">
+                      <a class="divan__h4-link product-text-link" href="#" aria-label="Ссылка на Диван из кожзама">Диван из кожзама
+                        <span>“R-43”</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="divan__block-span product-block-span">
+                    <span class="divan__span divan__span_dustyGray product-span">33 990 руб</span>
+                    <button class="divan__button btn product-btn" aria-label="Нажмите чтобы купить">Купить</button>
+                  </div>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <button class="divan__btn btn divan__btn_moreJs" aria-label="Нажмите чтобы посмотреть больше товаров">
+            Смотреть больше товаров
+          </button>
+        </div>
+      </section>
+      <section class="banner">
+        <div class="banner__container">
+          <div class="banner__block-img">
+            <div class="container banner__block-container">
+              <h2 class="banner__title h2">Оксфорд 1950</h2>
+              <p class="banner__desrc desrc">Новая коллекция изысканных кресел</p>
+              <a href="" class="banner__btn btn" aria-label="Нажмите чтобы ознакомиться">Ознакомиться</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="top">
+        <div class="container top__container">
+          <h2 class="top__title-h2 h2">Топ категории</h2>
+          <ul class="top__list">
+            <li class="top__item">
+              <div class="top__sub">
+                <ul class="top__sublist">
+                  <li class="top__subitem">
+                    <a href="#" class="top__sublink">
+                      Прямые
+                    </a>
+                  </li>
+                  <li class="top__subitem">
+                    <a href="#" class="top__sublink">Угловые</a>
+                  </li>
+                  <li class="top__subitem">
+                    <a href="#" class="top__sublink">Модульные</a>
+                  </li>
+                </ul>
+                <h3 class="top__title-h3 h3">Диваны
+                  <a class="top__link top__link_320 link-card" href="#">
+                    <span class="top__arrow arrow-card">&#8250;</span>
+                  </a>
+                </h3>
+                <picture>
+                  <source srcset="./img/top1-320.png" media="(max-width: 580px)">
+                  <source srcset="./img/top1-768.png" media="(max-width: 999px)">
+                  <source srcset="./img/top1-1024.png" media="(max-width: 1385px)">
+                  <img class="top__img" src="./img/top1-1920.png" alt="Картина диван">
+                </picture>
+                <a class="top__link top__link_1920 link-card" href="catalog.html" target="_blank" aria-label="В каталог">
+                  <span class="top__text text-card"> В каталог </span>
+                  <span class="top__arrow arrow-card">&#8250;</span>
+                </a>
+              </div>
+            </li>
+            <li class="top__item">
+              <div class="top__sub">
+                <ul class="top__sublist">
+                  <li class="top__subitem">
+                    <a href="#" class="top__sublink">Мягкие</a>
+                  </li>
+                  <li class="top__subitem">
+                    <a href="#" class="top__sublink">Кресла-кровати</a>
+                  </li>
+                </ul>
+                <h3 class="top__title-h3 h3">Кресла
+                  <a class="top__link top__link_320 link-card" href="#">
+                    <span class="top__arrow arrow-card">&#8250;</span>
+                  </a>
+                </h3>
+                <picture>
+                  <source srcset="./img/top2-320.png" media="(max-width: 580px)">
+                  <source srcset="./img/top2-768.png" media="(max-width: 999px)">
+                  <source srcset="./img/top2-1024.png" media="(max-width: 1385px)">
+                  <img class="top__img" src="./img/top2-1920.png" alt="Картина кресла">
+                </picture>
+                <a class="top__link top__link_1920 link-card" href="catalog.html" target="_blank" aria-label="В каталог">
+                  <span class="top__text text-card"> В каталог </span>
+                  <span class="top__arrow arrow-card">&#8250;</span>
+                </a>
+              </div>
+            </li>
+            <li class="top__item">
+              <div class="top__sub">
+                <ul class="top__sublist">
+                  <li class="top__subitem">
+                    <a href="#" class="top__sublink">Односпальные</a>
+                  </li>
+                  <li class="top__subitem">
+                    <a href="#" class="top__sublink">Двуспальные</a>
+                  </li>
+                </ul>
+                <h3 class="top__title-h3 h3">Кровати
+                  <a class="top__link top__link_320 link-card" href="#">
+                    <span class="top__arrow arrow-card">&#8250;</span>
+                  </a>
+                </h3>
+                <picture>
+                  <source srcset="./img/top3-320.png" media="(max-width: 580px)">
+                  <source srcset="./img/top3-768.png" media="(max-width: 999px)">
+                  <source srcset="./img/top3-1024.png" media="(max-width: 1385px)">
+                  <img class="top__img" src="./img/top3-1920.png" alt="Картина кровати">
+                </picture>
+                <a class="top__link top__link_1920 link-card" href="catalog.html" target="_blank" aria-label="В каталог">
+                  <span class="top__text text-card"> В каталог </span>
+                  <span class="top__arrow arrow-card">&#8250;</span>
+                </a>
+              </div>
+            </li>
+            <li class="top__item">
+              <div class="top__sub">
+                <ul class="top__sublist">
+                  <li class="top__subitem">
+                    <a href="#" class="top__sublink">Тумбы</a>
+                  </li>
+                  <li class="top__subitem">
+                    <a href="#" class="top__sublink">Комоды</a>
+                  </li>
+                </ul>
+                <h3 class="top__title-h3 h3">Тумбы
+                  <span>и комоды
+                    <a class="top__link top__link_320 link-card" href="#">
+                      <span class="top__arrow arrow-card">&#8250;</span>
+                    </a>
+                  </span>
+                </h3>
+                <picture>
+                  <source srcset="./img/top4-320.png" media="(max-width: 580px)">
+                  <source srcset="./img/top4-768.png" media="(max-width: 999px)">
+                  <source srcset="./img/top4-1024.png" media="(max-width: 1385px)">
+                  <img class="top__img" src="./img/top4-1920.png" alt="Картина тумбы и комоды">
+                </picture>
+                <a class="top__link top__link_1920 link-card" href="catalog.html" target="_blank" aria-label="В каталог">
+                  <span class="top__text text-card"> В каталог </span>
+                  <span class="top__arrow arrow-card">&#8250;</span>
+                </a>
+              </div>
+            </li>
+            <li class="top__item">
+              <div class="top__sub">
+                <ul class="top__sublist">
+                  <li class="top__subitem">
+                    <a href="#" class="top__sublink">Деревянные</a>
+                  </li>
+                  <li class="top__subitem">
+                    <a href="#" class="top__sublink">Металлокаркас</a>
+                  </li>
+                </ul>
+                <h3 class="top__title-h3 h3">Стулья
+                  <a class="top__link top__link_320 link-card" href="#">
+                    <span class="top__arrow arrow-card">&#8250;</span>
+                  </a>
+                </h3>
+                <picture>
+                  <source srcset="./img/top5-320.png" media="(max-width: 580px)">
+                  <source srcset="./img/top5-768.png" media="(max-width: 999px)">
+                  <source srcset="./img/top5-1024.png" media="(max-width: 1385px)">
+                  <img class="top__img" src="./img/top5-1920.png" alt="Картина стулья">
+                </picture>
+                <a class="top__link top__link_1920 link-card" href="catalog.html" target="_blank" aria-label="В каталог">
+                  <span class="top__text text-card"> В каталог </span>
+                  <span class="top__arrow arrow-card">&#8250;</span>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="useful">
+        <div class="container useful__container">
+          <div class="useful__swiper">
+            <h2 class="useful__title h2">Полезное</h2>
+            <div class="useful__swiper-container swiper">
+              <ul class="useful__swiper-wrapper swiper-wrapper">
+                <li class="swiper-slide useful__item">
+                  <picture>
+                    <source srcset="./img/useful1-320.jpg" media="(max-width: 580px)">
+                    <source srcset="./img/useful1-768.jpg" media="(max-width: 999px)">
+                    <source srcset="./img/useful1-1024.jpg" media="(max-width: 1385px)">
+                    <img class="useful__image" src="./img/useful1-1920.jpg" alt="Фото-1">
+                  </picture>
+                  <div class="useful__info">
+                    <div class="useful__block">
+                      <!--<-Блок для выравнивание текста-->
+                      <p class="useful__desrc desrc">
+                        И&nbsp;нет сомнений, что сделанные на&nbsp;базе интернет-аналитики выводы представляют собой
+                        не&nbsp;что иное?
+                      </p>
+                    </div>
+                    <a class="useful__link btn" aria-label="Нажмите чтобы прочитать статью">Читать</a>
+                  </div>
+                </li>
+                <li class="swiper-slide useful__item">
+                  <picture>
+                    <source srcset="./img/useful2-320.jpg" media="(max-width: 580px)">
+                    <source srcset="./img/useful2-768.jpg" media="(max-width: 999px)">
+                    <source srcset="./img/useful2-1024.jpg" media="(max-width: 1385px)">
+                    <img class="useful__image" src="./img/useful2-1920.jpg" alt="Фото-2">
+                  </picture>
+                  <div class="useful__info">
+                    <div class="useful__block">
+                      <!--<-Блок для выравнивание текста-->
+                      <p class="useful__desrc desrc">
+                        Как принято считать, некоторые особенности приносят несомненную пользу обществу?
+                      </p>
+                    </div>
+                    <a class="useful__link btn" aria-label="Нажмите чтобы прочитать статью">Читать</a>
+                  </div>
+                </li>
+                <li class="swiper-slide useful__item">
+                  <picture>
+                    <source srcset="./img/useful3-320.jpg" media="(max-width: 580px)">
+                    <source srcset="./img/useful3-768.jpg" media="(max-width: 999px)">
+                    <source srcset="./img/useful3-1024.jpg" media="(max-width: 1385px)">
+                    <img class="useful__image" src="./img/useful3-1920.jpg" alt="Фото-3">
+                  </picture>
+                  <div class="useful__info">
+                    <div class="useful__block">
+                      <!--<-Блок для выравнивание текста-->
+                      <p class="useful__desrc desrc">
+                        Ясность нашей позиции очевидна: укрепление и&nbsp;развитие внутренней структуры?
+                      </p>
+                    </div>
+                    <a class="useful__link btn" aria-label="Нажмите чтобы прочитать статью">Читать</a>
+                  </div>
+                </li>
+                <li class="swiper-slide useful__item">
+                  <picture>
+                    <source srcset="./img/useful4-320.jpg" media="(max-width: 580px)">
+                    <source srcset="./img/useful4-768.jpg" media="(max-width: 999px)">
+                    <source srcset="./img/useful4-1024.jpg" media="(max-width: 1385px)">
+                    <img class="useful__image" src="./img/useful4-1920.jpg" alt="Фото-4">
+                  </picture>
+                  <div class="useful__info">
+                    <div class="useful__block">
+                      <!--<-Блок для выравнивание текста-->
+                      <p class="useful__desrc desrc">
+                        Прежде всего, консультация с&nbsp;широким активом однозначно фиксирует необходимость
+                        распределения?
+                      </p>
+                    </div>
+                    <a class="useful__link btn" aria-label="Нажмите чтобы прочитать статью">Читать</a>
+                  </div>
+                </li>
+                <li class="swiper-slide useful__item">
+                  <picture>
+                    <source srcset="./img/useful5-320.jpg" media="(max-width: 580px)">
+                    <source srcset="./img/useful5-768.jpg" media="(max-width: 999px)">
+                    <source srcset="./img/useful5-1024.jpg" media="(max-width: 1385px)">
+                    <img class="useful__image" src="./img/useful5-1920.jpg" alt="Фото-5">
+                  </picture>
+                  <div class="useful__info">
+                    <div class="useful__block">
+                      <!--<-Блок для выравнивание текста-->
+                      <p class="useful__desrc desrc">
+                        Как принято считать, некоторые особенности приносят несомненную пользу обществу?
+                      </p>
+                    </div>
+                    <a class="useful__link btn" aria-label="Нажмите чтобы прочитать статью">Читать</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="useful__navigation-block320">
+              <!--для центрирование навигации в экране 320рх-->
+              <div class="useful__navigation navigation">
+                <button class="useful__btn useful__btn_prev arrowNav-btn arrowNav-btn_prev" tabindex="0" aria-label="Prev slide" aria-disabled="false"></button>
+                <button class="useful__btn useful__btn_next arrowNav-btn arrowNav-btn_next" tabindex="0" aria-label="Next slide" aria-disabled="false"></button>
+              </div>
+            </div>
+          </div>
+        </div><!-- useful__container -->
+      </section>
+      <section class="main-form">
+        <div class="container main-form__container">
+          <h2 class="main-form__title h2">
+            Мы всегда вам рады!
+          </h2>
+          <p class="main-form__desrc desrc">
+            Безусловно, новая модель организационной деятельности в&nbsp;значительной степени обусловливает важность распределения внутренних резервов и&nbsp;ресурсов.
+            <button class="main-form__tooltip" aria-label="Кнопка с со скрытым текстом, текст кнопки: Реплицированные с зарубежных источников, исследования формируют глобальную сеть." aria-describedby="descriptionClose"><span>?</span></button>
+            <span class="main-form__span-text" role="tooltip" id="descriptionClose">
+              Реплицированные с зарубежных источников, исследования формируют глобальную сеть.
+            </span>
+          </p>
+          <form class="main-form__form main-form__form_js form-disabled" action="mail.php" method="POST" enctype="multipart/form-data" aria-label="Здесь вы можете заказать обратный звонок">
+            <input type="hidden" name="admin_email[]" value="darki@yandex.ru">
+            <input type="hidden" name="form_subject" value="Заявка с сайта SitDownPls">
+            <!--data здесь он обрабатывает плагин валидатор кода-->
+            <label class="main-form__label" for="name">
+              <input class="main-form__input" type="text" placeholder="Как вас зовут?" data-validate-field="name" name="name" id="name" required aria-label="Введите ваше имя">
+            </label>
+            <label class="main-form__label" for="tel">
+              <input class="main-form__input" type="tel" placeholder="Ваш телефон" data-validate-field="tel" data-validate-rules="phone" name="tel" id="tel" aria-label="Введите ваш телефон">
+            </label>
+            <label class="main-form__label" for="email">
+              <input class="main-form__input" type="email" placeholder="Ваш email" data-validate-field="email" name="email" id="email" aria-label="Введите вашу почту">
+            </label>
+            <button class="main-form__btn btn main-form__btn_jsDis main-form__btn_filled" aria-label="Нажмите чтобы отправить">
+              Отправить
+            </button>
+            <div class="main-form__checkbox-container">
+              <input class="main-form__input-checkbox input-checkbox click-checkbox-js checkbox-js checkbox-disabled" id="checkbox" type="checkbox" checked="checked" aria-label="Нажмите если принимаете пользовательское соглашение" required="" data-validate-field="checkbox">
+              <label class="main-form__label main-form__label-checkbox" for="checkbox">
+                Принимаю
+              </label>
+              <a class="main-form__link modalBtn-js" href="#" data-modal-trigger="trigger-3" aria-label="Нажмите чтобы прочитать пользовательское соглашение">пользовательское соглашение</a>
+            </div>
+          </form>
+          <div class="main-form__modal modal" data-modal="trigger-3">
+            <div class="main-form__block"><!--__block для высоты.simplebar-content-->
+              <div class="main-form__modal-wrap-pol modal-wrap">
+                <div class="main-form__container-pol modal-container" data-simplebar>
+                  <button class="main-form__modal-close modal-close" title="Закрыть">&#10006;</button>
+                  <h2 class="main-form__modal-h2 h2">
+                    ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ
+                  </h2>
+                  <p>1. Основные понятия.</p>
+                  <p>1.1. Интернет-магазин — интернет-сайт, расположенный по адресу: <del>(ссылка)</del> на котором
+                    представлены Товары, предлагаемые Продавцом для приобретения и все связанные с ним поддомены;</p>
+                  <p>1.2. Посетитель Интернет-магазина — лицо, пришедшее на сайт Интернет-магазина без цели размещения
+                    Заказа;
+                  </p>
+                  <p>2. Общие положения.</p>
+                  <p>2.1. Продавец осуществляет продажу Товаров через Интернет-магазин.</p>
+                  <p>2.2. Заказывая Товары через Интернет-магазин, Пользователь соглашается с условиями, изложенными ниже. В случае несогласия с условиями, изложенными в настоящем Пользовательском соглашении (далее — Соглашение или Публичная оферта) Пользователь обязан немедленно прекратить использование сервиса и покинуть Интернет-магазин.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-form__slonik modal-slonik main-form__slonik_js">
+            <div class="main-form__slonik-sps modal-slonik-sps main-form__slonik-sps_js">
+              <button class="main-form__modal-close modal-close main-form__modal-close_js" title="Закрыть">
+                &#10006;
+              </button>
+              <div class="main-form__elephant-png"></div>
+              <h2 class="main-form__modal-h2 main-form__modal-h2_elephant320 h2">
+                Спасибо, мы вам перезвоним!
+              </h2>
+            </div>
+          </div><!--d-31__top-slonik-->          
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container footer__container-top">
+          <div class="footer__log-resources">
+            <a class="footer__logo" href="#">
+              <img class="footer__logo-img" src="img/logo.png" alt="Логотип SitDownPls">
+            </a>
+            <nav class="footer__nav-icone">
+              <ul class="footer__list-icone">
+                <li class="footer__item-icone">
+                  <a href="https://www.facebook.com/" class="footer__link-icone" target="blank" aria-label="facebook">
+                    <svg width="38" height="38" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="36" height="36" fill="transparent" />
+                      <path
+                        d="M18 3C9.74999 3 3 9.76205 3 18.0904C3 25.6205 8.48999 31.8705 15.66 33V22.4578H11.85V18.0904H15.66V14.762C15.66 10.9819 17.895 8.90361 21.33 8.90361C22.965 8.90361 24.675 9.18976 24.675 9.18976V12.9096H22.785C20.925 12.9096 20.34 14.0693 20.34 15.259V18.0904H24.51L23.835 22.4578H20.34V33C23.8746 32.4395 27.0933 30.6288 29.4149 27.8947C31.7364 25.1606 33.008 21.6832 33 18.0904C33 9.76205 26.25 3 18 3Z"
+                        fill="#999999" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer__item-icone">
+                  <a href="https://vk.com/" class="footer__link-icone" target="blank" aria-label="ВКонтакт">
+                    <svg width="38" height="38" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="36" height="36" fill="transparent" />
+                      <path
+                        d="M18 3C9.71601 3 3 9.7157 3 18C3 26.2843 9.71601 33 18 33C26.284 33 33 26.2843 33 18C33 9.7157 26.284 3 18 3ZM25.6088 19.6223C26.3079 20.3052 27.0476 20.9478 27.6752 21.7013C27.9532 22.0346 28.2153 22.3792 28.4148 22.7669C28.6996 23.3196 28.4425 23.9257 27.9477 23.9586L24.8747 23.958C24.081 24.0236 23.4494 23.7035 22.9169 23.1609C22.4919 22.7285 22.0975 22.2666 21.6881 21.8194C21.5208 21.6359 21.3447 21.4631 21.1347 21.3272C20.7158 21.0546 20.3518 21.1381 20.1118 21.5758C19.8672 22.0211 19.8114 22.5146 19.788 23.0102C19.7546 23.7348 19.5361 23.9242 18.809 23.9583C17.2554 24.031 15.7814 23.7953 14.4114 23.0121C13.2028 22.3212 12.2673 21.3462 11.4522 20.2422C9.86486 18.0902 8.64921 15.7283 7.55693 13.2985C7.3111 12.7513 7.49095 12.4585 8.09463 12.4472C9.0976 12.4278 10.1006 12.4303 11.1035 12.4462C11.5117 12.4527 11.7818 12.6862 11.9386 13.0714C12.4806 14.4049 13.1451 15.6737 13.9777 16.8503C14.1996 17.1637 14.4261 17.4761 14.7486 17.6974C15.1047 17.9417 15.376 17.861 15.5438 17.4635C15.6513 17.2109 15.6976 16.9409 15.7209 16.6702C15.8007 15.743 15.8102 14.8162 15.6721 13.8927C15.5862 13.3148 15.2612 12.9416 14.6851 12.8323C14.3917 12.7768 14.4347 12.6681 14.5774 12.5006C14.8251 12.2108 15.0571 12.0316 15.5208 12.0316L18.9928 12.031C19.5401 12.1384 19.6628 12.3839 19.7371 12.9351L19.7402 16.7936C19.7337 17.0069 19.8473 17.6391 20.2303 17.7787C20.5372 17.88 20.7397 17.6339 20.9233 17.4396C21.7559 16.556 22.3492 15.5131 22.8804 14.4338C23.1149 13.9577 23.3171 13.4652 23.5136 12.9717C23.6596 12.6068 23.8868 12.4272 24.2986 12.4333L27.642 12.4373C27.7406 12.4373 27.8406 12.4383 27.9382 12.4551C28.5017 12.5515 28.6561 12.794 28.4817 13.3436C28.2074 14.2073 27.6743 14.9266 27.1531 15.6479C26.5946 16.4201 25.9989 17.1652 25.4458 17.9408C24.9376 18.6497 24.9778 19.0066 25.6088 19.6223Z"
+                        fill="#999999" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer__item-icone">
+                  <a href="https://www.instagram.com/" class="footer__link-icone" target="blank" aria-label="instagram">
+                    <svg width="38" height="38" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="36" height="36" fill="transparent" />
+                      <path
+                        d="M15.1289 18.0001C15.1289 19.5858 16.4143 20.8712 18 20.8712C19.5857 20.8712 20.8711 19.5858 20.8711 18.0001C20.8711 16.4144 19.5857 15.129 18 15.129C16.4143 15.129 15.1289 16.4144 15.1289 18.0001Z"
+                        fill="#999999" />
+                      <path
+                        d="M11.2856 12.92C11.4236 12.546 11.6438 12.2075 11.9299 11.9297C12.2077 11.6436 12.546 11.4234 12.9203 11.2854C13.2238 11.1675 13.6797 11.0272 14.5195 10.989C15.4279 10.9475 15.7003 10.9386 18.0001 10.9386C20.3001 10.9386 20.5725 10.9473 21.4807 10.9887C22.3204 11.0272 22.7766 11.1675 23.0799 11.2854C23.4541 11.4234 23.7926 11.6436 24.0702 11.9297C24.3563 12.2075 24.5765 12.5458 24.7148 12.92C24.8326 13.2235 24.9729 13.6797 25.0112 14.5195C25.0526 15.4277 25.0615 15.7 25.0615 18.0001C25.0615 20.2999 25.0526 20.5722 25.0112 21.4807C24.9729 22.3204 24.8326 22.7764 24.7148 23.0799C24.5765 23.4541 24.3566 23.7924 24.0705 24.0702C23.7926 24.3563 23.4543 24.5765 23.0801 24.7145C22.7766 24.8326 22.3204 24.9729 21.4807 25.0112C20.5725 25.0526 20.3003 25.0613 18.0003 25.0613C15.7 25.0613 15.4277 25.0526 14.5197 25.0112C13.6799 24.9729 13.2238 24.8326 12.9203 24.7145C12.1691 24.4248 11.5753 23.8311 11.2856 23.0799C11.1677 22.7764 11.0274 22.3204 10.989 21.4807C10.9475 20.5722 10.9388 20.2999 10.9388 18.0001C10.9388 15.7 10.9475 15.4277 10.989 14.5195C11.0272 13.6797 11.1675 13.2235 11.2856 12.92V12.92ZM18.0001 22.4227C20.4429 22.4227 22.4232 20.4427 22.4232 17.9998C22.4232 15.557 20.4429 13.5769 18.0001 13.5769C15.5574 13.5769 13.5771 15.557 13.5771 17.9998C13.5771 20.4427 15.5574 22.4227 18.0001 22.4227ZM13.4023 14.4357C13.9731 14.4357 14.4359 13.9729 14.4359 13.4021C14.4359 12.8312 13.9731 12.3684 13.4023 12.3684C12.8315 12.3684 12.3687 12.8312 12.3687 13.4021C12.3689 13.9729 12.8315 14.4357 13.4023 14.4357Z"
+                        fill="#999999" />
+                      <path
+                        d="M18 3C26.283 3 33 9.717 33 18C33 26.283 26.283 33 18 33C9.717 33 3 26.283 3 18C3 9.717 9.717 3 18 3ZM9.43867 21.5511C9.48033 22.468 9.62613 23.094 9.83899 23.6419C10.2865 24.7989 11.2011 25.7135 12.3581 26.161C12.9058 26.3739 13.532 26.5194 14.4487 26.5613C15.3672 26.6032 15.6606 26.6133 17.9998 26.6133C20.3392 26.6133 20.6324 26.6032 21.5511 26.5613C22.4678 26.5194 23.094 26.3739 23.6417 26.161C24.2167 25.9447 24.7371 25.6057 25.1674 25.1674C25.6055 24.7374 25.9445 24.2167 26.1608 23.6419C26.3736 23.0942 26.5194 22.468 26.5611 21.5513C26.6034 20.6326 26.6133 20.3392 26.6133 18C26.6133 15.6608 26.6034 15.3674 26.5613 14.4489C26.5197 13.532 26.3741 12.906 26.1612 12.3581C25.9449 11.7833 25.6057 11.2626 25.1674 10.8326C24.7374 10.3943 24.2167 10.0553 23.6419 9.83899C23.094 9.62613 22.468 9.48056 21.5511 9.43867C20.6326 9.39679 20.3392 9.38672 18 9.38672C15.6608 9.38672 15.3674 9.39679 14.4489 9.4389C13.532 9.48056 12.906 9.62613 12.3581 9.83876C11.7833 10.0551 11.2626 10.3943 10.8323 10.8326C10.3943 11.2629 10.0551 11.7833 9.83899 12.3581C9.6259 12.906 9.48033 13.532 9.43845 14.4489C9.39656 15.3674 9.38672 15.6608 9.38672 18C9.38672 20.3392 9.39656 20.6326 9.43867 21.5511Z"
+                        fill="#999999" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <nav class="footer__nav-navigation">
+            <ul class="footer__list-navigation">
+              <li class="footer__item-navigation">О нас</li>
+              <li class="footer__item-navigation">
+                <a href="#" class="footer__link-navigation">О компании</a>
+              </li>
+              <li class="footer__item-navigation">
+                <a href="#" class="footer__link-navigation">Блог</a>
+              </li>
+            </ul>
+            <ul class="footer__list-navigation">
+              <li class="footer__item-navigation">Услуги</li>
+              <li class="footer__item-navigation">
+                <a href="#" class="footer__link-navigation">Доставка</a>
+              </li>
+              <li class="footer__item-navigation">
+                <a href="#" class="footer__link-navigation">Рассрочка и кредит</a>
+              </li>
+              <li class="footer__item-navigation">
+                <a href="#" class="footer__link-navigation">Сборка и установка</a>
+              </li>
+            </ul>
+            <ul class="footer__list-navigation">
+              <li class="footer__item-navigation">Связь с нами</li>
+              <li class="footer__item-navigation">
+                <a href="#" class="footer__link-navigation">Обратная связь</a>
+              </li>
+              <li class="footer__item-navigation">
+                <a href="#" class="footer__link-navigation">Контакты</a>
+              </li>
+            </ul>
+            <ul class="footer__list-navigation">
+              <li class="footer__item-navigation">Сотрудничество</li>
+              <li class="footer__item-navigation">
+                <a href="partnership.html" aria-label="Ссылка на Поставщиков" class="footer__link-navigation">Поставщикам</a>
+              </li>
+              <li class="footer__item-navigation">
+                <a href="#" class="footer__link-navigation">Оптовикам</a>
+              </li>
+              <li class="footer__item-navigation">
+                <a href="#" class="footer__link-navigation">Карьера</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container footer__container-bottom">
+          <span class="footer__bottom-text">SDP<sup class="footer__sup">&reg;</sup> 2011-2021</span>
+        </div>
+      </div>
+    </footer>
+  </div><!-- wrapper -->
+
+
+
+  <!--минифицированный библиотека-->
+  <!--Селектор(Выбор) выше jquery и слайдера, он ближе к head по макету-->
+  <!--Для компа-->
+  <script src="js/choices.min.js"></script>
+  <!--Для кодепена <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js" defer></script> -->
+  <!--Аккордеон тоже самое и для бургера-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <!--минифицированный библиотека-->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <!--Слайдера - Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!--Маска формы input-ов-->
+  <script src="js/inputmask.min.js"></script>
+  <!--Валидатор input-ов-->
+  <script src="js/just-validate.js"></script>
+  <!--Скроллбар main-form и d-31/ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ. Нужен для Слоника в форме-->
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+
+
+  <!-- Мои -->
+  <script src="js/SitDownPls.js"></script>
+  <!--modakl для main-form и d-31/ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ-->
+  <script src="js/modal.js"></script>
+</body>
+
+</html>
